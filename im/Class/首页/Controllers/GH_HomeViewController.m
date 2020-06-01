@@ -46,6 +46,7 @@
 //获取banber
 - (void)getData{
     [GetManager httpManagerNetWorkHudWithUrl:HomeBanner parameters:@{} httpModel:POST success:^(id  _Nonnull data, NSString * _Nonnull Message) {
+        [self.bannerArray removeAllObjects];
         self.model = [GHHomeBanaerModel mj_objectWithKeyValues:data];
 //         [self creatUI];
         NSArray * array = data[@"banner"];
@@ -70,6 +71,7 @@
 - (void)creatUI{
     //头部视图
     self.headerImage = [SDCycleScrollView cycleScrollViewWithFrame:CGRectZero imageURLStringsGroup:self.bannerArray];
+    self.headerImage.autoScrollTimeInterval = 3;
 //    [self.headerImage setImageWithURL:[NSURL URLWithString:self.model.banner] placeholder:nil];
   
     [self.view addSubview:self.headerImage];

@@ -59,8 +59,10 @@
     self.textField.text = self.userName;
     self.textField.delegate = self;
     self.textField.clearButtonMode =  UITextFieldViewModeWhileEditing;
-    [self.textField setValue:Colors(@"#333333") forKeyPath:@"_placeholderLabel.textColor"];
-    [self.textField setValue:Fonts(16) forKeyPath:@"_placeholderLabel.font"];
+    self.textField.textColor = Colors(@"#333333");
+    self.textField.font = Fonts(16);
+//    [self.textField setValue:Colors(@"#333333") forKeyPath:@"_placeholderLabel.textColor"];
+//    [self.textField setValue:Fonts(16) forKeyPath:@"_placeholderLabel.font"];
     self.textField.clearButtonMode = UITextFieldViewModeAlways;
     [self.textField addTarget:self action:@selector(changeText:) forControlEvents:UIControlEventEditingChanged];
     [whiteView addSubview:self.textField];

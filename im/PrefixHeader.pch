@@ -1,6 +1,6 @@
-//#define BaseUrl @"http://47.99.61.157:8083"
+#define BaseUrl @"http://47.99.61.157:8083"
 
-#define BaseUrl @"http://10.10.10.114:8102"
+//#define BaseUrl @"http://10.10.10.114:8102"
 //#define JGNotification [NSNotificationCenter defaultCenter] //通知
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch

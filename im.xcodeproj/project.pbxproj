@@ -10,6 +10,8 @@
 		5F9055D1DD76BFCF76CB0DBF /* libPods-imTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B949509FAE487DDC64850CB /* libPods-imTests.a */; };
 		B72727705935835B2A31F50E /* libPods-im.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B429028063C69F245F469D93 /* libPods-im.a */; };
 		C1376F4417AF6A1C32214178 /* libPods-imUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD55FD633C6BD191BFAB8FA5 /* libPods-imUITests.a */; };
+		D709A53F24848AE90040EC08 /* GH_XieYiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D709A53E24848AE90040EC08 /* GH_XieYiViewController.m */; };
+		D709A54224848B110040EC08 /* GH_GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D709A54124848B110040EC08 /* GH_GuideViewController.m */; };
 		D73A14B924737A6100F29C43 /* GH_InvitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A14B824737A6100F29C43 /* GH_InvitationViewController.m */; };
 		D73A14BC2473BB3700F29C43 /* GHInviteFirendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A14BB2473BB3700F29C43 /* GHInviteFirendModel.m */; };
 		D744F5402440598A00B74186 /* GH_ComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D744F53F2440598A00B74186 /* GH_ComplaintsViewController.m */; };
@@ -122,8 +124,6 @@
 		D7E826EA234D8861006B170B /* GH_Const.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E826E8234D8861006B170B /* GH_Const.m */; };
 		D7E826EB234D8861006B170B /* GetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E826E9234D8861006B170B /* GetManager.m */; };
 		D7E826EF234D8889006B170B /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E826EE234D8889006B170B /* Singleton.m */; };
-		D7E826F3234DB7C3006B170B /* GH_GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E826F2234DB7C3006B170B /* GH_GuideViewController.m */; };
-		D7E826F6234DC0FB006B170B /* GH_XieYiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E826F5234DC0FB006B170B /* GH_XieYiViewController.m */; };
 		D7F3CD3923501D4E003C5ABA /* NSObject+JGImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F3CD2A23501D4D003C5ABA /* NSObject+JGImpChangeTool.m */; };
 		D7F3CD3A23501D4E003C5ABA /* NSDictionary+JGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F3CD2B23501D4D003C5ABA /* NSDictionary+JGSafe.m */; };
 		D7F3CD3B23501D4E003C5ABA /* NSObject+JGSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F3CD2C23501D4D003C5ABA /* NSObject+JGSwizzling.m */; };
@@ -165,6 +165,10 @@
 		B4A239A3AFBA3088EC8F9A90 /* Pods-im.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-im.debug.xcconfig"; path = "Pods/Target Support Files/Pods-im/Pods-im.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4174026578335C8BBCF442 /* Pods-imUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imUITests/Pods-imUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0FB4627B584878BCD616E03 /* Pods-imUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-imUITests/Pods-imUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D709A53C24848AD60040EC08 /* GH_XieYiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GH_XieYiViewController.h; sourceTree = "<group>"; };
+		D709A53E24848AE90040EC08 /* GH_XieYiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GH_XieYiViewController.m; sourceTree = "<group>"; };
+		D709A54024848B110040EC08 /* GH_GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GH_GuideViewController.h; sourceTree = "<group>"; };
+		D709A54124848B110040EC08 /* GH_GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GH_GuideViewController.m; sourceTree = "<group>"; };
 		D73A14B724737A6100F29C43 /* GH_InvitationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GH_InvitationViewController.h; sourceTree = "<group>"; };
 		D73A14B824737A6100F29C43 /* GH_InvitationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GH_InvitationViewController.m; sourceTree = "<group>"; };
 		D73A14BA2473BB3600F29C43 /* GHInviteFirendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHInviteFirendModel.h; sourceTree = "<group>"; };
@@ -388,10 +392,6 @@
 		D7E826E9234D8861006B170B /* GetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetManager.m; sourceTree = "<group>"; };
 		D7E826ED234D8889006B170B /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		D7E826EE234D8889006B170B /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
-		D7E826F1234DB7C3006B170B /* GH_GuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GH_GuideViewController.h; path = ../../../../../Documents/GH_GuideViewController.h; sourceTree = "<group>"; };
-		D7E826F2234DB7C3006B170B /* GH_GuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GH_GuideViewController.m; path = ../../../../../Documents/GH_GuideViewController.m; sourceTree = "<group>"; };
-		D7E826F4234DC0FB006B170B /* GH_XieYiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GH_XieYiViewController.h; path = ../../../../../../Documents/GH_XieYiViewController.h; sourceTree = "<group>"; };
-		D7E826F5234DC0FB006B170B /* GH_XieYiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GH_XieYiViewController.m; path = ../../../../../../Documents/GH_XieYiViewController.m; sourceTree = "<group>"; };
 		D7F3CD2A23501D4D003C5ABA /* NSObject+JGImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JGImpChangeTool.m"; sourceTree = "<group>"; };
 		D7F3CD2B23501D4D003C5ABA /* NSDictionary+JGSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JGSafe.m"; sourceTree = "<group>"; };
 		D7F3CD2C23501D4D003C5ABA /* NSObject+JGSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JGSwizzling.m"; sourceTree = "<group>"; };
@@ -620,8 +620,8 @@
 				D7E825D0234D8732006B170B /* GH_CodeLoginViewController.m */,
 				D7E825D1234D8732006B170B /* GH_RegisterViewController.h */,
 				D7E825D3234D8732006B170B /* GH_RegisterViewController.m */,
-				D7E826F4234DC0FB006B170B /* GH_XieYiViewController.h */,
-				D7E826F5234DC0FB006B170B /* GH_XieYiViewController.m */,
+				D709A53C24848AD60040EC08 /* GH_XieYiViewController.h */,
+				D709A53E24848AE90040EC08 /* GH_XieYiViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -1023,8 +1023,8 @@
 		D7E826F0234DB7A9006B170B /* 引导页 */ = {
 			isa = PBXGroup;
 			children = (
-				D7E826F1234DB7C3006B170B /* GH_GuideViewController.h */,
-				D7E826F2234DB7C3006B170B /* GH_GuideViewController.m */,
+				D709A54024848B110040EC08 /* GH_GuideViewController.h */,
+				D709A54124848B110040EC08 /* GH_GuideViewController.m */,
 			);
 			path = "引导页";
 			sourceTree = "<group>";
@@ -1345,12 +1345,14 @@
 				D7F3CD3E23501D4E003C5ABA /* NSArray+JGSafe.m in Sources */,
 				D7E826D8234D87DA006B170B /* GH_OrderDetaileViewController.m in Sources */,
 				D7E82595234D7370006B170B /* ViewController.m in Sources */,
+				D709A54224848B110040EC08 /* GH_GuideViewController.m in Sources */,
 				D7E826BA234D87DA006B170B /* GH_UserNameViewController.m in Sources */,
 				D7E82609234D874C006B170B /* BaseViewController.m in Sources */,
 				D744F5542440608700B74186 /* myPhotoCell.m in Sources */,
 				D7E826CA234D87DA006B170B /* GH_AlredyBuyServiceDetaileViewController.m in Sources */,
 				D7F3CD3923501D4E003C5ABA /* NSObject+JGImpChangeTool.m in Sources */,
 				D7F3CD3A23501D4E003C5ABA /* NSDictionary+JGSafe.m in Sources */,
+				D709A53F24848AE90040EC08 /* GH_XieYiViewController.m in Sources */,
 				D7E826B9234D87DA006B170B /* GH_QuesetionDetailsViewController.m in Sources */,
 				D7F614342474FF57007432AD /* GH_MyIntitationTableViewCell.m in Sources */,
 				D744F55B2440608700B74186 /* UIImage+fixOrientation.m in Sources */,
@@ -1358,7 +1360,6 @@
 				D7E8261A234D874C006B170B /* GH_ShareManager.m in Sources */,
 				D7E826AF234D87DA006B170B /* GH_FinancingCardView.m in Sources */,
 				D7E825D6234D8732006B170B /* GH_WeiXinAndQQLoginView.m in Sources */,
-				D7E826F6234DC0FB006B170B /* GH_XieYiViewController.m in Sources */,
 				D7E826AA234D87DA006B170B /* GHQuestionListModelModel.m in Sources */,
 				D7E825D7234D8732006B170B /* GH_ AgreeView.m in Sources */,
 				D78EF29224502D3900A83B19 /* YBRectConst.m in Sources */,
@@ -1407,7 +1408,6 @@
 				D7E825D5234D8732006B170B /* GH_PublicTextFieldView.m in Sources */,
 				D7E82612234D874C006B170B /* GH_CustomNavBarView.m in Sources */,
 				D7E82616234D874C006B170B /* GH_MJFooter.m in Sources */,
-				D7E826F3234DB7C3006B170B /* GH_GuideViewController.m in Sources */,
 				D7E82614234D874C006B170B /* NSError+Helper.m in Sources */,
 				D7E826DC234D87DA006B170B /* GHAllMessageModel.m in Sources */,
 				D7E82618234D874C006B170B /* UIColor+JGHexColor.m in Sources */,
@@ -1612,7 +1612,7 @@
 				DEVELOPMENT_TEAM = 33ZJ4R8BZ4;
 				GCC_PREFIX_HEADER = im/PrefixHeader.pch;
 				INFOPLIST_FILE = im/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1638,7 +1638,7 @@
 				DEVELOPMENT_TEAM = 33ZJ4R8BZ4;
 				GCC_PREFIX_HEADER = im/PrefixHeader.pch;
 				INFOPLIST_FILE = im/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

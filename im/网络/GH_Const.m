@@ -27,7 +27,7 @@ NSString * const questionList = @"/questions/selectQuestion";
 //我要融资
 NSString * const Merchant = @"/merchant/insertMerchant";
 //首页Bannaer
-NSString * const HomeBanner = @"/banner/selectBanner";
+NSString * const HomeBanner = @"/banner/V2/selectBanner";
 //咨询留言标签
 NSString * const selectLabel = @"/label/selectLabel";
 //提交留言
